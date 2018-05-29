@@ -1,0 +1,8 @@
+.contaniner {
+  background-color: pink;
+  height: 100%;
+  width: 98%; }
+  .contaniner h1 {
+    margin: 0; }
+  .contaniner .page {
+    height: 100%; }
