@@ -1,22 +1,28 @@
 import React, { Component } from 'react'
 import { Transition, animated } from 'react-spring'
 import './animations.css'
-
-
+import Home from '../Routes/home/Home'
 
 
 
 const pages = [
-    style => <animated.div style={{ ...style, background: '#247BA0' ,height:'100%'}} className='page'>
-    <div style={{height: '200px', width:'200px'}}>
-    <h1>Hellow Im sexy</h1></div>
+    style => <animated.div style=
+        {{ ...style, background: '#619BC8' ,height:'100%', }}
+     className='page1'>
+        <div className="testChangeME">
+            HELLO. I'M DAHEE.JUNG.<br /> I'M FULL-STACK WEB DEVEOPER.
+
+            </div>
     </animated.div>,
-    style => <animated.div style={{ ...style, background: '#B2DBBF', height: '100%' }} className='page'><div style={{ height: '200px', width: '200px' }}>
-        <h1>How Sexy are you?</h1></div></animated.div>,
-    style => <animated.div style={{ ...style, background: '#12DBBF', height: '100%' }} className='page'><div style={{ height: '200px', width: '200px' }}>
-        <h1>Very?</h1></div></animated.div>,
-         style => <animated.div style={{ ...style, background: '#B2DBBF', height: '100%' }} className='page'><div style={{ height: '200px', width: '200px' }}>
-        <h1>How Sexy are you?</h1></div></animated.div>,
+    style => <animated.div style={{ ...style, background: '#B2DBBF', height: '100%' }} className='page'>
+    <div><Home/>
+        </div></animated.div>,
+    style => <animated.div style={{ ...style, background: '#12DBBF', height: '100%' }} className='page'>
+    <div style={{ height: '200px', width: '200px' }}>
+        <h1>BLOG</h1></div></animated.div>,
+         style => <animated.div style={{ ...style, background: '#B2DBBF', height: '100%' }} className='page'>
+         <div style={{ height: '200px', width: '200px' }}>
+        <h1>CONTACT</h1></div></animated.div>,
 ]
 
 class SlideChildComponent extends Component {
