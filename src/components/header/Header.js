@@ -9,7 +9,7 @@ const Header = ({ value,insideComponent})=> (
     <div className='barStyle'>
         <AppBar position="static">
             <Tabs value={value}>
-                <Tab label="Item One" />
+                <Tab label="HOME" />
                 <Tab label="Item Two" />
                 <Tab label="Item Three" href="#basic-tabs" />
             </Tabs>

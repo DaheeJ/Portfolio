@@ -1,0 +1,62 @@
+.easy-menu-container {
+  background-color: white;
+  padding: 15px;
+  height: 400px;
+  width: 250px;
+  text-align: center;
+  display: table; }
+  .easy-menu-container .header {
+    width: 250px;
+    background-color: #EED4A1;
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    height: 10px;
+    margin: 0 auto;
+    padding: 10px; }
+  .easy-menu-container .firstBox {
+    margin: auto;
+    background-color: #87B7D1;
+    margin: 0 auto;
+    margin-bottom: 10%;
+    font-size: 8px;
+    border-radius: 4%;
+    margin-top: 20%;
+    color: white;
+    width: 175px;
+    height: 75px;
+    padding: 20px;
+    text-align: left;
+    position: relative; }
+    .easy-menu-container .firstBox .icon {
+      position: absolute;
+      right: 10px;
+      top: 25px; }
+    .easy-menu-container .firstBox .icon1 {
+      position: absolute;
+      right: 10px;
+      bottom: 25px; }
+  .easy-menu-container .secondBox {
+    margin: auto;
+    background-color: #C87E89;
+    margin: auto;
+    margin-bottom: 10%;
+    font-size: 8px;
+    border-radius: 4%;
+    color: white;
+    width: 175px;
+    height: 75px;
+    padding: 20px;
+    text-align: left; }
+  .easy-menu-container .thirdBox {
+    margin: auto;
+    background-color: #92D2A9;
+    margin: auto;
+    margin-bottom: 10%;
+    font-size: 8px;
+    border-radius: 4%;
+    color: white;
+    width: 175px;
+    height: 75px;
+    padding: 20px;
+    text-align: left; }
