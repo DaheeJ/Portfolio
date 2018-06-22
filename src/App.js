@@ -6,7 +6,9 @@ import Header from '../src/components/header/Header'
 import EasyMenu from './components/demo/easyMenu/EasyMenu'
 import ColorMenu from './components/demo/colorfulMenu/ColorMenu'
 import 'bulma/css/bulma.css'
-
+import MenuBar from './components/demo/menuBar/MenuBar'
+import HomeInfo from './components/demo/HomeInfo/aboutHome'
+import Photo from './components/demo/photo/Photo'
 
 class App extends Component {
   render() {
@@ -14,7 +16,10 @@ class App extends Component {
       <div className="app">
         {/* <Header insideComponent={<SlideChildComponent />} /> */}
         {/* <EasyMenu/> */}
-        < ColorMenu  />
+        {/* < ColorMenu  /> */}
+        {/* < MenuBar /> */}
+        {/* < HomeInfo /> */}
+        < Photo />
       </div>
     );
   }
